@@ -1,0 +1,333 @@
+* {
+    box-sizing: border-box;
+}
+
+.Spinimgs {
+    width: 75px !important;
+    height: 75px !important;
+    border-radius: 50%;
+}
+
+.jj {
+    margin-left: -16%;
+    margin-top: -4px !important;
+}
+
+.container {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: 5px solid gold !important;
+    position: relative;
+    overflow: hidden;
+    transition: 5s;
+    box-shadow: gold 10px 1px 30px 1px;
+
+}
+
+.container div {
+    height: 51%;
+    width: 150px;
+    position: absolute;
+    clip-path: polygon(100% 0, 50% 100%, 0 0);
+    transform: translateX(-50%);
+    transform-origin: bottom;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: sans-serif;
+    color: #fff;
+    left: 70px;
+    writing-mode: vertical-lr !important;
+}
+
+.fon {
+
+    margin: 20px;
+    font-size: 15px !important;
+    writing-mode: vertical-lr !important;
+}
+
+.container .one {
+    background-color: #f21a12;
+    left: 50%;
+    writing-mode: vertical-rl !important;
+}
+
+.container .two {
+    background-color: #100f0f;
+    transform: rotate(45deg);
+    writing-mode: vertical-lr !important;
+}
+
+.container .three {
+    background-color: #e91e63;
+    transform: rotate(90deg);
+}
+
+.container .four {
+    background-color: #0b0b0b;
+    transform: rotate(135deg);
+}
+
+.container .five {
+    background-color: #ef3510;
+    transform: rotate(180deg);
+}
+
+.container .six {
+    background-color: #0a0a0a;
+    transform: rotate(225deg);
+}
+
+.container .seven {
+    background-color: #f83411;
+    transform: rotate(270deg);
+}
+
+.container .eight {
+    background-color: #090909;
+    transform: rotate(315deg);
+}
+
+.arrow::before {
+    content: "\1F817";
+    font-size: 50px;
+}
+
+.spinz {
+    position: absolute;
+    width: 300px !important;
+    height: 300px !important;
+
+}
+
+#spin {
+    position: absolute;
+    margin-top: 50%;
+    left: 51%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+    background-color: #e2e2e2;
+    text-transform: uppercase;
+    border: 1px solid #fff;
+    font-weight: bold;
+    font-size: 15px;
+    color: #a2a2a2;
+    width: 70px;
+    height: 70px;
+    font-family: sans-serif;
+    border-radius: 50%;
+    cursor: pointer;
+    outline: none;
+    letter-spacing: 1px;
+}
+
+.f {
+    margin-left: 10%;
+    width: 300px;
+    height: 300px;
+    margin-top: 10%;
+
+}
+
+.i {
+    position: absolute;
+    width: 350px;
+    height: 350px;
+}
+
+.im {
+    width: 400px;
+    height: 400px;
+    margin-left: -50px;
+    margin-top: -48px;
+}
+
+.Pin {
+    margin-top: 65% !important;
+    position: absolute;
+    z-index: 2;
+    width: 130px;
+    height: 130px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 25%;
+}
+
+.Stand {
+    position: absolute;
+    margin-top: 70% !important;
+    width: 200px;
+    z-index: 1;
+    margin-left: 15%;
+    height: 200px;
+    opacity: 0.5 !important;
+}
+
+@media only screen and (max-device-width: 350px) {
+    .f {
+        margin-left: -5px !important;
+        width: 300px;
+        height: 300px;
+    }
+}
+
+@media only screen and (max-device-width: 375px) {
+
+    .f {
+        margin-left: 5%;
+        width: 300px;
+        height: 300px;
+    }
+
+    .spinz {
+        position: absolute;
+        width: 300px !important;
+        height: 300px !important;
+
+    }
+
+    #spin {
+        position: absolute;
+        margin-top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 10;
+        background-color: #e2e2e2;
+        text-transform: uppercase;
+        border: 1px solid #fff;
+        font-weight: bold;
+        font-size: 15px;
+        color: #a2a2a2;
+        width: 70px;
+        height: 70px;
+        font-family: sans-serif;
+        border-radius: 50%;
+        cursor: pointer;
+        outline: none;
+        letter-spacing: 1px;
+    }
+
+    .container div {
+        height: 52% !important;
+        width: 145px !important;
+        position: absolute;
+        clip-path: polygon(100% 0, 50% 100%, 0 0);
+        transform: translateX(-50%);
+        transform-origin: bottom;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 15px;
+        font-weight: bold;
+        font-family: sans-serif;
+        color: #fff;
+        left: 70px;
+        writing-mode: vertical-rl !important;
+    }
+}
+
+@media only screen and (max-device-width: 320px) {
+
+    .f {
+        margin-left: 1% !important;
+        width: 280px;
+        height: 280px !important;
+    }
+
+
+    .spinz {
+        position: absolute;
+        width: 300px !important;
+        height: 300px !important;
+
+    }
+
+    .i {
+        position: absolute;
+        width: 350px;
+        height: 350px;
+    }
+
+    .im {
+        width: 360px !important;
+        height: 360px !important;
+        margin-left: -40px;
+        margin-top: -40px;
+    }
+
+    .container {
+        width: 280px !important;
+        height: 280px !important;
+        border-radius: 50%;
+        border: 5px solid #dde;
+        position: relative;
+        overflow: hidden;
+        box-shadow: gold 5px 1px 10px 1px;
+    }
+
+    .container div {
+        height: 52%;
+        width: 120px !important;
+        position: absolute;
+        clip-path: polygon(100% 0, 50% 100%, 0 0);
+        transform: translateX(-50%);
+        transform-origin: bottom;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 15px;
+        font-weight: bold;
+        font-family: sans-serif;
+        color: #fff;
+        left: 72px;
+        writing-mode: vertical-rl !important;
+    }
+
+    #spin {
+        position: absolute;
+        margin-top: 47%;
+        left: 48%;
+        transform: translate(-50%, -50%);
+        z-index: 10;
+        background-color: #e2e2e2;
+        text-transform: uppercase;
+        border: 1px solid #fff;
+        font-weight: bold;
+        font-size: 15px;
+        color: #a2a2a2;
+        width: 70px;
+        height: 70px;
+        font-family: sans-serif;
+        border-radius: 50%;
+        cursor: pointer;
+        outline: none;
+        letter-spacing: 1px;
+    }
+
+    .Pin {
+        margin-top: 60% !important;
+        position: absolute;
+        z-index: 3;
+        width: 120px;
+        height: 120px;
+        align-items: center;
+        justify-content: center;
+        margin-left: 23%;
+    }
+
+    .Stand {
+        position: absolute;
+        margin-top: 63% !important;
+        width: 200px;
+        z-index: 1;
+        margin-left: 12%;
+        opacity: 0.9 !important;
+    }
+}

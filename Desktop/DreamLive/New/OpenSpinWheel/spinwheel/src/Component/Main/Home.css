@@ -1,0 +1,78 @@
+.firstscreen {
+    background-image: url("../../assets/01-01.png");
+    overflow: hidden;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.firstalign {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.Diamondicons {
+    margin-bottom: -20px;
+    margin-left: 50px;
+
+}
+
+
+.jj {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.h {
+    height: 100%;
+    background-color: aqua !important;
+    position: relative;
+}
+
+.m {
+    position: absolute !important;
+    margin-top: 20px;
+    width: 60%;
+    margin-left: 90px;
+
+}
+
+.price {
+    background-color: #fb0;
+}
+
+.tex {
+    font-family: "CargoTwoSF" !important;
+}
+
+.rou {
+    border-radius: 400px !important;
+}
+
+.l {
+    margin-right: 20px !important;
+}
+
+.modalspin {
+    margin-left: 80px;
+}
+
+.c {
+    margin-left: -8px;
+}
+
+.loader {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    background-color: blue !important;
+    position: absolute !important;
+    height: 100vh !important;
+    z-index: 10 !important;
+
+}
